@@ -52,7 +52,7 @@
   export default {
     name: 'goods',
     props: {
-      selelr: {
+      seller: {
         type: Object
       }
     },

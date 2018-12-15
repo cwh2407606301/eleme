@@ -40,7 +40,7 @@ export default {
     this.$nextTick(()=>{
       this.$axios.get('./../static/data.json').then((res)=>{
         this.seller = res.data.seller;
-        window.evenBus.$emit('seller',this.seller);
+        // window.evenBus.$emit('seller',this.seller);
       });
 
     })
