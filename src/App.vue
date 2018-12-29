@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <m-header :seller = "seller"></m-header>
+    <m-header :seller="seller"></m-header>
     <div class="tab border-1px">
       <div class="tab-item">
         <router-link :to="{path: '/goods'}">商品</router-link>
